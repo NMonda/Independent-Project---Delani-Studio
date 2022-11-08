@@ -12,6 +12,8 @@ Bootstrap
 Css
 Javascript
 Jquery
+## Live links
+https://nmonda.github.io/Independent-Project---Delani-Studio
 
 ## Author.
 Ndege Monda(Nmonda)
