@@ -80,3 +80,13 @@ body {
     min-width: 100%;
     margin-top: 2%;
   }
+  #what-we-do-contents {
+    text-align: center;
+    margin-top: 1.63%;
+    justify-content: center;
+  }
+  
+  #portfolio-contents {
+    justify-content: center;
+    text-align: center;
+  }
