@@ -125,3 +125,26 @@ body {
   
     opacity: 1;
   }
+  #design:hover,
+#development:hover,
+#product:hover,
+#design_pic:hover,
+#development_pic:hover,
+#product_pic:hover {
+  cursor: pointer;
+}
+
+#project1,
+#project2,
+#project3,
+#project4,
+#project5,
+#project6,
+#project7,
+#project8 {
+  position: absolute;
+  font-weight: bold;
+  background-color: white;
+  border: solid 6px white;
+  display: none;
+}
