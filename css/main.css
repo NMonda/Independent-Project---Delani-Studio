@@ -95,3 +95,33 @@ body {
     align-items: center;
     text-align: center;
   }
+  #forms {
+    background: transparent;
+  }
+  
+  #footer {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  input {
+    border-color: white;
+  
+    background-color: transparent;
+    width: 35%;
+    color: white;
+  }
+  
+  textarea {
+    background: transparent;
+    border-color: white;
+    width: 71%;
+    margin-top: 1%;
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+  
+    opacity: 1;
+  }
