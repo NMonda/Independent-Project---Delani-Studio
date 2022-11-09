@@ -90,3 +90,8 @@ body {
     justify-content: center;
     text-align: center;
   }
+  #social_icons {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
