@@ -41,3 +41,18 @@ $(document).ready(function () {
             });
           }
         },
+        function () {
+            $("#project1").hide();
+            $(this).css({ opacity: "1" });
+          }
+        );
+      
+        $("#work2").hover(
+          function () {
+            $("#project2").show().css({
+              background: "rgba(0, 0, 0, 0.6)",
+              height: "73%",
+              width: "75%",
+              "font-size": "121%",
+              color: "white",
+            });
