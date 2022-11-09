@@ -1,0 +1,28 @@
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Josefin Sans;
+  }
+  
+  #containers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #welcome {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/background_pics/h_img.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    color: white;
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 34.2px;
+    min-height: 50vh;
+    min-width: 100%;
+  }
