@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     width: 100%;
   }
+  
   #welcome {
     justify-content: center;
     display: flex;
@@ -26,30 +27,7 @@ body {
     min-height: 50vh;
     min-width: 100%;
   }
-  #container-fluid {
-    margin-top: 1.78%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  #contact_us {
-    background-image: url(../images/background_pics/c_image.jpg);
-    text-align: center;
-    justify-content: end;
-    min-height: 50vh;
-    min-width: 100%;
-    margin-top: 2%;
-    color: white;
-    background-size: 100% 100%;
-  }
-  #mouse {
-    margin-top: 10.3%;
-  }
   
-  #mouse:hover {
-    cursor: pointer;
-    animation: bounce 0.55s infinite;
-  }
   .designs {
     width: 25%;
     display: none;
@@ -80,6 +58,14 @@ body {
     min-width: 100%;
     margin-top: 2%;
   }
+  
+  #container-fluid {
+    margin-top: 1.78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
   #what-we-do-contents {
     text-align: center;
     margin-top: 1.63%;
@@ -90,11 +76,24 @@ body {
     justify-content: center;
     text-align: center;
   }
+  
+  #contact_us {
+    background-image: url(../images/backgrounds/c_image.jpg);
+    text-align: center;
+    justify-content: end;
+    min-height: 50vh;
+    min-width: 100%;
+    margin-top: 2%;
+    color: white;
+    background-size: 100% 100%;
+  }
+  
   #social_icons {
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+  
   #forms {
     background: transparent;
   }
@@ -125,74 +124,91 @@ body {
   
     opacity: 1;
   }
+  
   #design:hover,
-#development:hover,
-#product:hover,
-#design_pic:hover,
-#development_pic:hover,
-#product_pic:hover {
-  cursor: pointer;
-}
-
-#project1,
-#project2,
-#project3,
-#project4,
-#project5,
-#project6,
-#project7,
-#project8 {
-  position: absolute;
-  font-weight: bold;
-  background-color: white;
-  border: solid 6px white;
-  display: none;
-}
-#work1,
-#work2,
-#work3,
-#work4,
-#work5,
-#work6,
-#work7,
-#work8 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-}
-
-#what-we-do-contents {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-
-
-#design_pic,
-#development_pic,
-#product_pic {
-  width: 30%;
-}
-
-#amaze {
-  font-size: small;
-}
-
-@keyframes bounce {
-  from {
-    transform: translate3d(0, 0, 0);
+  #development:hover,
+  #product:hover,
+  #design_pic:hover,
+  #development_pic:hover,
+  #product_pic:hover {
+    cursor: pointer;
   }
-
-  to {
-    transform: translate3d(0, 13px, 0);
+  
+  #project1,
+  #project2,
+  #project3,
+  #project4,
+  #project5,
+  #project6,
+  #project7,
+  #project8 {
+    position: absolute;
+    font-weight: bold;
+    background-color: white;
+    border: solid 6px white;
+    display: none;
   }
-}
-
-#pf1,
-#pf2 {
-  display: flex;
-}
+  
+  #work1,
+  #work2,
+  #work3,
+  #work4,
+  #work5,
+  #work6,
+  #work7,
+  #work8 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  }
+  
+  #what-we-do-contents {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #what-we-do {
+    width: 83%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #design_pic,
+  #development_pic,
+  #product_pic {
+    width: 30%;
+  }
+  
+  #amaze {
+    font-size: small;
+  }
+  
+  #mouse {
+    margin-top: 10.3%;
+  }
+  
+  #mouse:hover {
+    cursor: pointer;
+    animation: bounce 0.55s infinite;
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    to {
+      transform: translate3d(0, 13px, 0);
+    }
+  }
+  
+  #pf1,
+  #pf2 {
+    display: flex;
+  }
